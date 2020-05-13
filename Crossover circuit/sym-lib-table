@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Crossover-circuit-rescue)(type Legacy)(uri "${KIPRJMOD}/Crossover circuit-rescue.lib")(options "")(descr ""))
+)

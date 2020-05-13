@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# audio-grade_capacitor
+#
+DEF audio-grade_capacitor C 0 40 Y Y 1 F N
+F0 "C" 0 150 50 H V C CNN
+F1 "audio-grade_capacitor" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 20 -30 -80 -30 80 N
+P 2 1 1 20 30 -80 30 80 N
+X ~ 1 -150 0 110 R 50 50 1 1 P
+X ~ 2 150 0 110 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# audio-grade_inductor
+#
+DEF audio-grade_inductor L 0 40 Y Y 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "audio-grade_inductor" 0 200 50 H V C CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -75 0 25 1 1799 1 1 0 N -50 0 -100 0
+A -25 0 25 1 1799 1 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 1 1 0 N 50 0 0 0
+A 75 0 25 1 1799 1 1 0 N 100 0 50 0
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# audio-grade_resistor
+#
+DEF audio-grade_resistor R 0 40 Y Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "audio-grade_resistor" 0 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

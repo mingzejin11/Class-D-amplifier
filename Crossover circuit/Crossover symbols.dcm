@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP audio-grade_inductor
+D Audio grade inductor for crossover circuit
+$ENDCMP
+#
+$CMP audio-grade_resistor
+D Audio-grade resistor for crossover circuit
+$ENDCMP
+#
+#End Doc Library

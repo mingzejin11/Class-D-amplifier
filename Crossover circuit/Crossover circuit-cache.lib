@@ -1,0 +1,79 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Crossover-circuit-rescue_audio-grade_capacitor-Crossover_symbols
+#
+DEF Crossover-circuit-rescue_audio-grade_capacitor-Crossover_symbols C 0 40 Y Y 1 F N
+F0 "C" 0 150 50 H V C CNN
+F1 "Crossover-circuit-rescue_audio-grade_capacitor-Crossover_symbols" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 20 -30 -80 -30 80 N
+P 2 1 1 20 30 -80 30 80 N
+X ~ 1 -150 0 110 R 50 50 1 1 P
+X ~ 2 150 0 110 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Crossover-circuit-rescue_audio-grade_inductor-Crossover_symbols
+#
+DEF Crossover-circuit-rescue_audio-grade_inductor-Crossover_symbols L 0 40 Y Y 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "Crossover-circuit-rescue_audio-grade_inductor-Crossover_symbols" 0 200 50 H V C CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -75 0 25 1 1799 1 1 0 N -50 0 -100 0
+A -25 0 25 1 1799 1 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 1 1 0 N 50 0 0 0
+A 75 0 25 1 1799 1 1 0 N 100 0 50 0
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Crossover-circuit-rescue_audio-grade_resistor-Crossover_symbols
+#
+DEF Crossover-circuit-rescue_audio-grade_resistor-Crossover_symbols R 0 40 Y Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "Crossover-circuit-rescue_audio-grade_resistor-Crossover_symbols" 0 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Terminal-Blocks-Wire-to-Board_OSTTC020162
+#
+DEF dk_Terminal-Blocks-Wire-to-Board_OSTTC020162 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Terminal-Blocks-Wire-to-Board_OSTTC020162" 50 -100 50 H V C CNN
+F2 "digikey-footprints:Term_Block_1x2_P5mm" 200 200 60 H I L CNN
+F3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" 200 300 60 H I L CNN
+F4 "ED2600-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "OSTTC020162" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Terminal Blocks - Wire to Board" 200 700 60 H I L CNN "Family"
+F8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" 200 1000 60 H I L CNN "Description"
+F11 "On Shore Technology Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 25 1 1 0 N
+C 100 0 25 1 1 0 N
+S -50 100 150 -50 1 1 0 f
+P 2 1 1 0 0 25 0 -25 N
+P 2 1 1 0 25 0 -25 0 N
+P 2 1 1 0 75 0 125 0 N
+P 2 1 1 0 100 25 100 -25 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
