@@ -633,7 +633,7 @@
       (net 2 "Net-(C1-Pad1)"))
   )
 
-  (gr_text "2-way crossover\nCreated by Mingze Jin" (at 88.9 139.7) (layer F.SilkS)
+  (gr_text "2-way crossover\nCreated by Mingze Jin" (at 90.17 139.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (dimension 102.87 (width 0.12) (layer F.SilkS)
